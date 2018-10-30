@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Menu from '@material-ui/core/Menu';
 import SearchBar from './components/SearchBar/SearchBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import YoutubeAPI from './utils/SearchYoutube';
@@ -9,7 +7,6 @@ import { withStyles } from '@material-ui/core/styles';
 import VideoList from './components/VideoList/VideoList';
 import Grid from '@material-ui/core/Grid';
 import styles from './AppStyles';
-import Paper from '@material-ui/core/Paper';
 import { Typography } from '@material-ui/core';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 
